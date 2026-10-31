@@ -1,0 +1,6 @@
+{
+  "name": "Sổ Thu Nộp",
+  "description": "Sổ quỹ và quản lý thu nộp tiền lớp học đơn giản, chữ to, dễ dùng cho phụ huynh và giáo viên.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

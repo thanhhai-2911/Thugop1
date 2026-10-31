@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Sổ Thu Nộp - Quỹ Lớp Học",
+  "short_name": "Sổ Thu Nộp",
+  "description": "Sổ quỹ và quản lý thu nộp tiền lớp học đơn giản, chữ to, dễ dùng cho phụ huynh và giáo viên.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

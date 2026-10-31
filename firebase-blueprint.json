@@ -1,0 +1,50 @@
+{
+  "entities": {
+    "SoThuNop": {
+      "title": "SoThuNop",
+      "description": "Toàn bộ dữ liệu sổ thu nộp quỹ lớp học",
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "number",
+          "description": "Phiên bản cấu trúc dữ liệu"
+        },
+        "passcode": {
+          "type": "string",
+          "description": "Mã PIN 4 số"
+        },
+        "classInfo": {
+          "type": "object",
+          "description": "Thông tin lớp học"
+        },
+        "students": {
+          "type": "array",
+          "description": "Danh sách học sinh"
+        },
+        "fees": {
+          "type": "array",
+          "description": "Danh mục các khoản thu"
+        },
+        "payments": {
+          "type": "array",
+          "description": "Lịch sử học sinh nộp tiền"
+        },
+        "cashbook": {
+          "type": "array",
+          "description": "Sổ nộp chi thủ quỹ"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "Thời điểm cập nhật gần nhất"
+        }
+      },
+      "required": ["version", "passcode", "classInfo", "students", "fees", "payments", "cashbook"]
+    }
+  },
+  "firestore": {
+    "/so_thu_nop/{docId}": {
+      "schema": "SoThuNop",
+      "description": "Dữ liệu sổ thu nộp lớp học"
+    }
+  }
+}
